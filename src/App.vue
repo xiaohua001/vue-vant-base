@@ -25,6 +25,7 @@ export default {
   created() {
     this.$navigation.on('forward', () => {
       this.transitionName = 'van-slide-right'
+      console.log(111)
     })
     this.$navigation.on('back', () => {
       this.transitionName = 'van-slide-left'
